@@ -1,0 +1,20 @@
+antora:
+  extensions:
+    - require: "@antora/collector-extension"
+asciidoc:
+  attributes:
+    table-frame: none@
+    table-grid: rows@
+    table-stripes: odd@
+    sectnums: "|,all|"
+site:
+  title: Antora Collector Extension Example
+  start_page: main::index.adoc
+content:
+  sources:
+    - url: ./
+      start_path: main
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true

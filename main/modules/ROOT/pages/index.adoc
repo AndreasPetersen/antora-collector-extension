@@ -1,0 +1,5 @@
+= {page-component-title}
+
+xref:attachment$antora-values.yaml[File already in Antora]
+
+xref:attachment$values.yaml[Externally collected file]

@@ -1,0 +1,12 @@
+name: main
+title: Antora Collector Extension Example
+version: 1.0.0
+nav:
+  - modules/ROOT/nav.adoc
+
+ext:
+  collector:
+    run:
+      command: ./gradlew copyExternalFile
+    scan:
+      dir: build/external-files
