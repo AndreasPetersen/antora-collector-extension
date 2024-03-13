@@ -1,4 +1,4 @@
 tasks.register('copyExternalFile', Copy) {
     from "src/values.yaml"
-    into layout.buildDirectory.dir("external-files")
+    into layout.buildDirectory.dir("external-files/modules/ROOT/attachments")
 }

@@ -9,4 +9,4 @@ ext:
     run:
       command: ./gradlew copyExternalFile
     scan:
-      dir: build/external-files
+      dir: modules/ROOT/attachments/values.yml
