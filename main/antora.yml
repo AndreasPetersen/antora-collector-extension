@@ -9,4 +9,4 @@ ext:
     run:
       command: ./gradlew copyExternalFile
     scan:
-      dir: external-files
+      dir: build/external-files
